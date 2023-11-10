@@ -1,10 +1,11 @@
 # [Ecopia]
 
-[Include an image or a logo of your game if available]
+![Game Logo](https://i.ibb.co/KrkwVMV/ecopia-Gamma2.jpg)
+
 
 ## Description
 
-Welcome to [Ecopia]! This is a [game develop using java web development for a education usage]. 
+Welcome to Ecopia! This is a game develop using java web development for a education usage. 
 
 ## Table of Contents
 
