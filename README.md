@@ -1,6 +1,7 @@
 # [Ecopia]
 
-![Game Logo](https://i.ibb.co/KrkwVMV/ecopia-Gamma2.jpg)
+![Game Logo](src/main/webapp/assets/ecopiaGamma2.jpg)
+
 
 
 ## Description
