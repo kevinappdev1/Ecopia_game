@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 9, 2023, 2:59:39 PM
+    Author     : CHAMA COMPUTERS
+*/
+/* Custom CSS for the leaderboard */
+
+
+.leaderboard {
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard .leaderboard-heading {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.leaderboard .leaderboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.leaderboard .leaderboard-item:last-child {
+    border-bottom: none;
+}
+
+.leaderboard .leaderboard-item .leaderboard-rank {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.leaderboard .leaderboard-item .leaderboard-username {
+    font-size: 18px;
+}
+
+.leaderboard .leaderboard-item .leaderboard-score {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.leaderboard .leaderboard-item .leaderboard-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+/* Add custom CSS for the animated dot */
+.alert-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50; /* Green color for the dot */
+    border-radius: 50%; /* Makes it a circle */
+    display: inline-block;
+    margin-right: 5px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
